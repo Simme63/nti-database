@@ -17,7 +17,7 @@ services:
       context: ./api
       dockerfile: Dockerfile
     ports:
-      - 3000:3000
+      - 1337:1337
   adminer:
     container_name: sigma
     image: adminer
